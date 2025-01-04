@@ -1,0 +1,71 @@
+body {
+  background-color: #121212;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  color: #f0f0f0;
+  font-size: 100px;
+  text-align: center;
+}
+
+#container {
+  border-radius: 15px;
+  margin: 50px 10px 20px 10px;
+  padding: 30px;
+  background-color: #ababab;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
+  text-align: center;
+  height: 100%;
+  margin: auto;
+}
+
+#counter{
+  font-size: 100px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttons{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.increment-button{
+  background-color: hsl(126, 85%, 26%);
+}
+
+.decrement-button{
+  background-color: hsl(0, 100%, 27%);
+}
+
+.reset-button{
+  background-color: hsl(0, 0%, 30%);
+}
+
+button{
+  font-weight: 525;
+  font-size: 30px;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+  filter: brightness(80%);
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 50px;
+  color: #f0f0f0;
+  opacity: 0.5;
+}
